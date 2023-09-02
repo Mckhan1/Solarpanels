@@ -1,0 +1,46 @@
+<script setup>
+</script>
+
+<script>
+import store from '../store';
+export default {
+    mounted() {
+        console.log(this.panels);
+    },
+    data() {
+        return {
+            panels: store.getters.panels,
+        }
+    }
+}
+
+</script>
+
+<template>
+    <div class="h-[761px] w-[100%] mb-[80px]">
+        <div class="h-[100%] w-[90%] m-auto flex flex-col">
+            <h2 class="text-[32px] pt-[80px]">You might also like</h2>
+            <div class="flex justify-between h-[max-content] w-[100%] mt-[40px]">
+
+                <div v-for="i of this.panels" :key="i.id"
+                    class="h-[462px]  w-[305px] flex flex-col ">
+                    <img class="h-[376px] w-[305px]" :src="i.img" alt="">
+                    <div class="mt-[24px] flex justify-between text-center h-[30px] items-center">
+                        <span class="text-[20px]">{{ i.title }}</span>
+                        <span class="text-[14px]">{{ i.wat }}</span>
+                    </div>
+                    <p class="text-[18px] mt-[8px]">${{ i.price }}</p>
+                </div>
+
+
+            </div>
+            <div class="flex items-center justify-center">
+                <button class="h-[56px] w-[200px] text-center bg-[#4269E2] mt-[53px] text-[#fff]">view collection</button>
+
+            </div>
+        </div>
+    </div>
+</template>
+
+
+<style></style>
