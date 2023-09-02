@@ -8,14 +8,14 @@ export default {
 </script>
 
 <template>
-    <div class="h-[840px] w-[100%]">
-        <div class="h-[100%] w-[90%] m-auto flex flex-col items-center justify-center text-[#22343D]">
+    <div class="min-h-[840px] w-[100%]">
+        <div class="h-[100%] w-[90%] m-auto flex flex-col items-center justify-center  text-[#22343D]">
             <h2 class="text-[34px] font-[700]">Price Table</h2>
             <p class="font-[500] mt-[8px]">We offer competitive price</p>
 
-            <div class="flex justify-between h-[607px] w-[100%]  mt-[50px]">
+            <div class="course flex justify-between flex-wrap min-h-[607px] w-[100%]  mt-[50px]">
 
-                <div class="courses h-[607px] w-[388px] bg-[#fff] rounded-[8px] flex flex-col items-center justify-center">
+                <div class="blockCourses courses h-[607px] mb-[30px] w-[388px] bg-[#fff] rounded-[8px] flex flex-col items-center justify-center">
                     <h3 class="text-[24px] font-[700] text-[#22343D]">Standard</h3>
                     <p class="mt-[8px] text-[#22343D]">Brief price description</p>
                     <div class="flex items-center mt-[16px]">
@@ -32,7 +32,7 @@ export default {
 
                 </div>
 
-                <div class="coursesActive h-[607px] w-[388px] bg-[#012465] rounded-[8px] flex flex-col items-center justify-center">
+                <div class="blockCourses coursesActive h-[607px] mb-[30px] w-[388px] bg-[#012465] rounded-[8px] flex flex-col items-center justify-center">
                     <h3 class="text-[24px] font-[700] text-[#fff]">Standard</h3>
                     <p class="mt-[8px] text-[#fff]">Brief price description</p>
                     <div class="flex items-center mt-[16px]">
@@ -49,7 +49,7 @@ export default {
 
                 </div>
 
-                <div class="courses h-[607px] w-[388px] bg-[#fff] rounded-[8px] flex flex-col items-center justify-center">
+                <div class="blockCourses courses h-[607px] mb-[30px] w-[388px] bg-[#fff] rounded-[8px] flex flex-col items-center justify-center">
                     <h3 class="text-[24px] font-[700] text-[#22343D]">Standard</h3>
                     <p class="mt-[8px] text-[#22343D]">Brief price description</p>
                     <div class="flex items-center mt-[16px]">
@@ -72,6 +72,7 @@ export default {
 </template>
 
 <style scoped>
+
 .courses{
     box-shadow: 0px 1px 6px 2px #e0e0e0;
 }

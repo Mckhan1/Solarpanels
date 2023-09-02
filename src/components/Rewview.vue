@@ -8,14 +8,14 @@ export default {
 </script>
 
 <template>
-    <div class="h-[567px] w-[100%]">
+    <div class="min-h-[567px] w-[100%]">
         <div class="h-[100%] w-[90%] m-auto flex flex-col items-center justify-center text-[#22343D]">
-            <h2 class="text-[34px] font-[700]">What Clients Say</h2>
+            <h2 class="textRev text-[34px] font-[700]">What Clients Say</h2>
             <p class="mt-[8px] font-[500] w-[40%] text-center">Problems trying to resolve the conflict between
                 the two major realms of Classical physics: Newtonian mechanics </p>
-            <div class="h-[326px] w-[100%]  mt-[50px] flex justify-between">
+            <div class="review h-[326px] w-[100%]  mt-[50px] flex justify-between">
 
-                <div class="h-[236px] w-[327px] rounded-[5px] flex flex-col justify-around pl-[26px] border-[1px] border-solid border-[#DEDEDE]">
+                <div class="h-[236px] mb-[30px] w-[327px] rounded-[5px] flex flex-col justify-around pl-[26px] border-[1px] border-solid border-[#DEDEDE]">
                     <svg class="mt-[5px]" width="107" height="19" viewBox="0 0 107 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M18.2961 6.58663C18.2384 6.41682 18.1323 6.26761 17.9908 6.15742C17.8493 6.04723 17.6787 5.98089 17.4999 5.96658L12.2708 5.55107L10.008 0.542056C9.9359 0.380725 9.81869 0.243699 9.67047 0.147514C9.52225 0.0513295 9.34936 9.71158e-05 9.17266 1.37932e-07C8.99597 -9.684e-05 8.82302 0.0509458 8.6747 0.146968C8.52637 0.24299 8.40901 0.379887 8.33677 0.541138L6.07395 5.55107L0.844797 5.96658C0.669105 5.9805 0.501144 6.04474 0.361006 6.15161C0.220868 6.25849 0.114488 6.40348 0.0545932 6.56923C-0.00530196 6.73498 -0.0161763 6.91448 0.0232713 7.08625C0.062719 7.25802 0.150818 7.41479 0.277029 7.5378L4.14134 11.3049L2.77466 17.2229C2.73316 17.402 2.74646 17.5895 2.81283 17.761C2.8792 17.9324 2.99559 18.08 3.14687 18.1845C3.29816 18.2891 3.47737 18.3457 3.66124 18.3471C3.84511 18.3485 4.02516 18.2946 4.17803 18.1924L9.17237 14.8628L14.1667 18.1924C14.3229 18.2961 14.5072 18.3495 14.6947 18.3454C14.8822 18.3413 15.0639 18.2799 15.2155 18.1694C15.367 18.0589 15.4811 17.9047 15.5423 17.7274C15.6036 17.5502 15.6091 17.3584 15.5581 17.1779L13.8805 11.3076L18.0411 7.56348C18.3135 7.31766 18.4135 6.93426 18.2961 6.58663Z"
@@ -37,13 +37,13 @@ export default {
                         more days you need to work to
                         reach your financial goal.</span>
                     <div class="flex items-center">
-                        <img src="../assets/icons/Ellipse 2.png" alt="">
+                        <img src="@/assets/icons/Ellipse2.png" alt="">
                         <span class="text-[#02897A] font-[600] ml-[14px]">Wahid Ari</span>
                     </div>
 
                 </div>
 
-                <div class="h-[236px] w-[327px] rounded-[5px] flex flex-col justify-around pl-[26px] border-[1px] border-solid border-[#DEDEDE]">
+                <div class="h-[236px] mb-[30px] w-[327px] rounded-[5px] flex flex-col justify-around pl-[26px] border-[1px] border-solid border-[#DEDEDE]">
                     <svg class="mt-[5px]" width="107" height="19" viewBox="0 0 107 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M18.2961 6.58663C18.2384 6.41682 18.1323 6.26761 17.9908 6.15742C17.8493 6.04723 17.6787 5.98089 17.4999 5.96658L12.2708 5.55107L10.008 0.542056C9.9359 0.380725 9.81869 0.243699 9.67047 0.147514C9.52225 0.0513295 9.34936 9.71158e-05 9.17266 1.37932e-07C8.99597 -9.684e-05 8.82302 0.0509458 8.6747 0.146968C8.52637 0.24299 8.40901 0.379887 8.33677 0.541138L6.07395 5.55107L0.844797 5.96658C0.669105 5.9805 0.501144 6.04474 0.361006 6.15161C0.220868 6.25849 0.114488 6.40348 0.0545932 6.56923C-0.00530196 6.73498 -0.0161763 6.91448 0.0232713 7.08625C0.062719 7.25802 0.150818 7.41479 0.277029 7.5378L4.14134 11.3049L2.77466 17.2229C2.73316 17.402 2.74646 17.5895 2.81283 17.761C2.8792 17.9324 2.99559 18.08 3.14687 18.1845C3.29816 18.2891 3.47737 18.3457 3.66124 18.3471C3.84511 18.3485 4.02516 18.2946 4.17803 18.1924L9.17237 14.8628L14.1667 18.1924C14.3229 18.2961 14.5072 18.3495 14.6947 18.3454C14.8822 18.3413 15.0639 18.2799 15.2155 18.1694C15.367 18.0589 15.4811 17.9047 15.5423 17.7274C15.6036 17.5502 15.6091 17.3584 15.5581 17.1779L13.8805 11.3076L18.0411 7.56348C18.3135 7.31766 18.4135 6.93426 18.2961 6.58663Z"
@@ -65,13 +65,13 @@ export default {
                         more days you need to work to
                         reach your financial goal.</span>
                     <div class="flex items-center">
-                        <img src="../assets/icons/Ellipse 2.png" alt="">
+                        <img src="@/assets/icons/Ellipse2.png" alt="">
                         <span class="text-[#02897A] font-[600] ml-[14px]">Wahid Ari</span>
                     </div>
 
                 </div>
 
-                <div class="h-[236px] w-[327px] rounded-[5px] flex flex-col justify-around pl-[26px] border-[1px] border-solid border-[#DEDEDE]">
+                <div class="h-[236px] mb-[30px] w-[327px] rounded-[5px] flex flex-col justify-around pl-[26px] border-[1px] border-solid border-[#DEDEDE]">
                     <svg class="mt-[5px]" width="107" height="19" viewBox="0 0 107 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M18.2961 6.58663C18.2384 6.41682 18.1323 6.26761 17.9908 6.15742C17.8493 6.04723 17.6787 5.98089 17.4999 5.96658L12.2708 5.55107L10.008 0.542056C9.9359 0.380725 9.81869 0.243699 9.67047 0.147514C9.52225 0.0513295 9.34936 9.71158e-05 9.17266 1.37932e-07C8.99597 -9.684e-05 8.82302 0.0509458 8.6747 0.146968C8.52637 0.24299 8.40901 0.379887 8.33677 0.541138L6.07395 5.55107L0.844797 5.96658C0.669105 5.9805 0.501144 6.04474 0.361006 6.15161C0.220868 6.25849 0.114488 6.40348 0.0545932 6.56923C-0.00530196 6.73498 -0.0161763 6.91448 0.0232713 7.08625C0.062719 7.25802 0.150818 7.41479 0.277029 7.5378L4.14134 11.3049L2.77466 17.2229C2.73316 17.402 2.74646 17.5895 2.81283 17.761C2.8792 17.9324 2.99559 18.08 3.14687 18.1845C3.29816 18.2891 3.47737 18.3457 3.66124 18.3471C3.84511 18.3485 4.02516 18.2946 4.17803 18.1924L9.17237 14.8628L14.1667 18.1924C14.3229 18.2961 14.5072 18.3495 14.6947 18.3454C14.8822 18.3413 15.0639 18.2799 15.2155 18.1694C15.367 18.0589 15.4811 17.9047 15.5423 17.7274C15.6036 17.5502 15.6091 17.3584 15.5581 17.1779L13.8805 11.3076L18.0411 7.56348C18.3135 7.31766 18.4135 6.93426 18.2961 6.58663Z"
@@ -93,7 +93,7 @@ export default {
                         more days you need to work to
                         reach your financial goal.</span>
                     <div class="flex items-center">
-                        <img src="../assets/icons/Ellipse 2.png" alt="">
+                        <img src="@/assets/icons/Ellipse2.png" alt="">
                         <span class="text-[#02897A] font-[600] ml-[14px]">Wahid Ari</span>
                     </div>
 

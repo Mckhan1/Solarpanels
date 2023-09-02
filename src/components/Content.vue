@@ -45,7 +45,7 @@ export default {
 
                     <swiper-slide>
                         <div class="h-[385px] w-[350px] flex flex-col">
-                            <img src="../assets/image/imagedsfsfwe3232323.png" alt="">
+                            <img src="@/assets/image/imagedsfsfwe3232323.png" alt="">
                             <p class="mt-[17px]">By <span class="font-[700]">Wahid Ari</span> | 03 March 2019</p>
                             <span class="mt-[18px] text-[24px] font-[700] w-[90%]">Increasing Prosperity With Positive
                                 Thinking</span>
@@ -53,7 +53,7 @@ export default {
                     </swiper-slide>
                     <swiper-slide>
                         <div class="h-[385px] w-[350px] flex flex-col">
-                            <img src="../assets/image/imagedsfsfwe3232323.png" alt="">
+                            <img src="@/assets/image/imagedsfsfwe3232323.png" alt="">
                             <p class="mt-[17px]">By <span class="font-[700]">Wahid Ari</span> | 03 March 2019</p>
                             <span class="mt-[18px] text-[24px] font-[700] w-[90%]">Increasing Prosperity With Positive
                                 Thinking</span>
@@ -61,7 +61,7 @@ export default {
                     </swiper-slide>
                     <swiper-slide>
                         <div class="h-[385px] w-[350px] flex flex-col">
-                            <img src="../assets/image/imagedsfsfwe3232323.png" alt="">
+                            <img src="@/assets/image/imagedsfsfwe3232323.png" alt="">
                             <p class="mt-[17px]">By <span class="font-[700]">Wahid Ari</span> | 03 March 2019</p>
                             <span class="mt-[18px] text-[24px] font-[700] w-[90%]">Increasing Prosperity With Positive
                                 Thinking</span>
@@ -69,7 +69,7 @@ export default {
                     </swiper-slide>
                     <swiper-slide>
                         <div class="h-[385px] w-[350px] flex flex-col">
-                            <img src="../assets/image/imagedsfsfwe3232323.png" alt="">
+                            <img src="@/assets/image/imagedsfsfwe3232323.png" alt="">
                             <p class="mt-[17px]">By <span class="font-[700]">Wahid Ari</span> | 03 March 2019</p>
                             <span class="mt-[18px] text-[24px] font-[700] w-[90%]">Increasing Prosperity With Positive
                                 Thinking</span>
@@ -77,7 +77,7 @@ export default {
                     </swiper-slide>
                     <swiper-slide>
                         <div class="h-[385px] w-[350px] flex flex-col">
-                            <img src="../assets/image/imagedsfsfwe3232323.png" alt="">
+                            <img src="@/assets/image/imagedsfsfwe3232323.png" alt="">
                             <p class="mt-[17px]">By <span class="font-[700]">Wahid Ari</span> | 03 March 2019</p>
                             <span class="mt-[18px] text-[24px] font-[700] w-[90%]">Increasing Prosperity With Positive
                                 Thinking</span>

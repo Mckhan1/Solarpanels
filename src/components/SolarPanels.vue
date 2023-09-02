@@ -38,7 +38,7 @@ export default {
 }
 
 .image {
-    background-image: url('../assets/image/Right Image.png');
+    background-image: url('@/assets/image/RightImage.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

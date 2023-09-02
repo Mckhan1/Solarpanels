@@ -8,13 +8,13 @@ export default {
 </script>
 
 <template>
-    <div class="h-[600px] w-[100%] ">
-        <div class="h-[100%] w-[90%] m-auto flex flex-col items-center justify-around text-[#22343D]">
-            <h2 class="font-[700] text-[32px] text-center">Product was Built Specifically
+    <div class="min-h-[600px] w-[100%]">
+        <div class="h-[100%] w-[90%] m-auto flex flex-col items-center justify-around text-[#22343D] pt-[75px]">
+            <h2 class="font-[700] text-[32px] text-center mb-[110px]">Product was Built Specifically
                 for You</h2>
-            <div class="h-[210px] w-[100%] flex justify-between">
+            <div class="blockSign h-[210px] w-[100%] flex justify-between mb-[37px]">
 
-                <div class="h-[100%] w-[280px] flex flex-col">
+                <div class="h-[100%] w-[280px] flex flex-col mb-[30px]">
                     <svg width="68" height="61" viewBox="0 0 68 61" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_4_629)" filter="url(#filter0_d_4_629)">
                             <rect x="4.98267" y="0.595947" width="58.1279" height="51.5085" rx="19" fill="#740A76" />
@@ -44,7 +44,7 @@ export default {
                     <span class="mt-[20px]">While most people enjoy casino gambling,</span>
                 </div>
 
-                <div class="h-[100%] w-[280px] flex flex-col">
+                <div class="h-[100%] w-[280px] flex flex-col mb-[20px]">
                     <svg width="68" height="61" viewBox="0 0 68 61" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_4_629)" filter="url(#filter0_d_4_629)">
                             <rect x="4.98267" y="0.595947" width="58.1279" height="51.5085" rx="19" fill="#740A76" />
@@ -74,7 +74,7 @@ export default {
                     <span class="mt-[20px]">Sports betting, lottery and bingo playing for the fun</span>
                 </div>
 
-                <div class="h-[100%] w-[280px] flex flex-col">
+                <div class="h-[100%] w-[280px] flex flex-col mb-[20px]">
                     <svg width="68" height="61" viewBox="0 0 68 61" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_4_629)" filter="url(#filter0_d_4_629)">
                             <rect x="4.98267" y="0.595947" width="58.1279" height="51.5085" rx="19" fill="#740A76" />
@@ -104,7 +104,7 @@ export default {
                     <span class="mt-[20px]">The Myspace page defines the individual.</span>
                 </div>
 
-                <div class="h-[100%] w-[280px] flex flex-col">
+                <div class="h-[100%] w-[280px] flex flex-col mb-[20px]">
                     <svg width="68" height="61" viewBox="0 0 68 61" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_4_629)" filter="url(#filter0_d_4_629)">
                             <rect x="4.98267" y="0.595947" width="58.1279" height="51.5085" rx="19" fill="#740A76" />
@@ -136,7 +136,7 @@ export default {
 
             </div>
 
-            <button class="text-[#000] bg-[#FED700] w-[203px] h-[56px] font-[700]">SIGN UP NOW</button>
+            <button class="text-[#000] bg-[#FED700] w-[203px] h-[56px] font-[700] mb-[50px]">SIGN UP NOW</button>
 
         </div>
     </div>

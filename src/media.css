@@ -1,0 +1,97 @@
+@media screen and (max-width: 1920px) {
+    .aboutText{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 1336px) {
+    .imgPanels{
+        width: 295px;
+    }
+    .textFeed{
+        font-size: 30px;
+    }
+    .productAll{
+        width: 282px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .imgPanels{
+        width: 300px;
+    }
+    .Brand{
+        height: max-content !important;
+    }
+    .aboutText{
+        width: 85%;
+    }
+    .back{
+        width: 550px !important;
+    }
+    .imgFeed{
+        width: 500px  !important;
+    }
+    .pFeed{
+        width: 95% !important;
+    }
+    .textFeed{
+        font-size: 30px;
+    }
+    .productAll{
+        width: 282px;
+    }
+    .foot{
+        height: 500px !important;
+    }
+    .wrapperFooter{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .joinFoot{
+        width: 100%;
+        height: max-content !important;
+    }
+    .SvgFoot{
+        bottom: 10px !important;
+    }
+    .descPayment{
+        width: 100% !important; 
+    }
+    .filterProduct{
+        width: 340px !important;
+        padding-left: 50px ;
+    }
+    .productAll {
+        width: 298px;
+    }
+    .course{
+        justify-content: space-evenly;
+    }
+    .blockCourses{
+        width: 435px !important;
+    }
+    .textRev{
+        margin-top: 100px;
+    }
+    .review{
+        justify-content: space-evenly;
+        height: max-content;
+        flex-wrap: wrap;
+    }
+    .textManeg{
+        width: 100% !important;
+    }
+    .blockSign{
+        height: max-content;
+        flex-wrap: wrap;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px){
+    .link{
+        margin-left: 50px ;
+    }
+}

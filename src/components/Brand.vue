@@ -9,13 +9,13 @@ export default {
 </script>
 
 <template>
-    <div class="h-[355px] w-[100%] text-[#2A254B]">
+    <div class="Brand h-[355px] w-[100%] text-[#2A254B]">
         <div class="h-[100%] w-[90%] m-auto">
             <h2 class="text-center pt-[60px] text-[24px]">What makes our brand different?</h2>
             
-            <div class="h-[124px] w-[100%] mt-[51px] flex justify-between items-center">
+            <div class="h-[max-content] w-[100%] mt-[51px] flex flex-wrap justify-between items-center">
                 
-                <div class="h-[124px] w-[271px] flex flex-col">
+                <div class="h-[124px] w-[271px] flex flex-col mb-[20px]">
                     <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_2_249)">
                             <g style="mix-blend-mode:multiply">
@@ -38,7 +38,7 @@ export default {
 
                 </div>
 
-                <div class="h-[124px] w-[271px] flex flex-col">
+                <div class="h-[124px] w-[271px] flex flex-col mb-[20px]">
                     <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_2_249)">
                             <g style="mix-blend-mode:multiply">
@@ -61,7 +61,7 @@ export default {
 
                 </div>
 
-                <div class="h-[124px] w-[271px] flex flex-col">
+                <div class="h-[124px] w-[271px] flex flex-col mb-[20px]">
                     <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_2_249)">
                             <g style="mix-blend-mode:multiply">
@@ -84,7 +84,7 @@ export default {
 
                 </div>
 
-                <div class="h-[124px] w-[271px] flex flex-col">
+                <div class="h-[124px] w-[271px] flex flex-col mb-[20px]">
                     <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_2_249)">
                             <g style="mix-blend-mode:multiply">

@@ -17,7 +17,7 @@ export default {
                 <button class="mt-[45px] h-[56px] w-[175px] bg-[#FED700] font-[700] text-center text-[#000]">Get started</button>
             </div>
             <div class="h-[100%] w-[50%]  flex items-center justify-center">
-                <img class="h-[520px] w-[562px]" src="../assets/image/amico.png" alt="">
+                <img class="h-[520px] w-[562px]" src="@/assets/image/amico.png" alt="">
             </div>
         </div>
     </div>

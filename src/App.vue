@@ -4,6 +4,7 @@ import { RouterLink, RouterView } from 'vue-router'
 import './style.css'
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
+import "./media.css"
 </script>
 <script>
 export default {

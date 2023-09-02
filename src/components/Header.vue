@@ -13,7 +13,7 @@ export default {
             uz: false,
         }
     },
-    methods:{
+    methods: {
         // changeLanguage(){
         //     if(event.target.dataset.language == "uz"){
         //         store.state.lang = 1
@@ -35,8 +35,8 @@ export default {
         //     console.log(this.env);
         // }
     },
- 
-  
+
+
 }
 </script>
 
@@ -46,25 +46,27 @@ export default {
         <div class="h-[100%] w-[90%] m-auto flex flex-col">
             <div class="flex h-[70px] w-[100%] items-center justify-between border-b-[1px] border-[solid] border-[#E6E6E6]">
                 <div class="h-[50px] w-[50px]  text-center">
-                    <img src="../assets/icons/Final-01 1.svg" alt="">
+                    <img src="@/assets/icons/Final-011.svg" alt="">
                 </div>
-                <router-link class="text-[24px]" to="/"> 
-                    {{ this.text[this.env].header.header_title  }} 
+                <router-link class="text-[24px]" to="/">
+                    {{ this.text[this.env].header.header_title }}
                 </router-link>
                 <div>
-                    <span @click="changeLanguage" :class="{languageActive: this.uz}" data-language="uz" class="text-[#AFAFAF] font-[600] cursor-pointer ml-[15px]">UZ</span>
-                    <span @click="changeLanguage" :class="{languageActive: this.en}" data-language="en"
+                    <span @click="changeLanguage" :class="{ languageActive: this.uz }" data-language="uz"
+                        class="text-[#AFAFAF] font-[600] cursor-pointer ml-[15px]">UZ</span>
+                    <span @click="changeLanguage" :class="{ languageActive: this.en }" data-language="en"
                         class=" text-[#AFAFAF] font-[600] cursor-pointer ml-[15px]">ENG</span>
-                    <span @click="changeLanguage" :class="{languageActive: this.ru}" data-language="ru" class="text-[#AFAFAF] font-[600] cursor-pointer ml-[15px]">RU</span>
+                    <span @click="changeLanguage" :class="{ languageActive: this.ru }" data-language="ru"
+                        class="text-[#AFAFAF] font-[600] cursor-pointer ml-[15px]">RU</span>
                 </div>
             </div>
             <div class="flex h-[60px] w-[100%] items-center justify-center">
 
-                <router-link class="ml-[65px] text-[#000]" to="/">Главная</router-link>
-                <router-link class="ml-[65px] text-[#000]" to="/">О нас</router-link>
-                <router-link class="ml-[65px] text-[#000]" to="/allproduct">Все товары</router-link>
-                <router-link class="ml-[65px] text-[#000]" to="/education">Школа</router-link>
-                <router-link class="ml-[65px] text-[#000]" to="/payment">Написать нам</router-link>
+                <router-link class="ml-[65px] link text-[#000]" to="/">Главная</router-link>
+                <router-link class="ml-[65px] link text-[#000]" to="/#About">О нас</router-link>
+                <router-link class="ml-[65px] link text-[#000]" to="/allproduct">Все товары</router-link>
+                <router-link class="ml-[65px] link text-[#000]" to="/education">Школа</router-link>
+                <router-link class="ml-[65px] link text-[#000]" to="/payment">Написать нам</router-link>
             </div>
 
         </div>
@@ -72,7 +74,10 @@ export default {
 </template>
 
 
-<style scoped>
+<style>
+* {
+}
+
 .languageActive {
     /* border-b-[1px] border-solid border-[#012465] */
     /* text-[#012465]  */
@@ -83,5 +88,4 @@ export default {
 .header {
     backdrop-filter: blur(50px);
     /* box-shadow: 0px 2px 5px #dbdbdb; */
-}
-</style>
+}</style>

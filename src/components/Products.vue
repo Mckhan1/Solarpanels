@@ -22,7 +22,7 @@ export default {
     <div class="min-h-[600px] w-[100%] bg-[#012465]">
         <div class="h-[100%] w-[100%] flex">
 
-            <div class="w-[385px] h-[max-content] sticky top-[130px] pt-[51px] pl-[80px]">
+            <div class="filterProduct w-[385px] h-[max-content] sticky top-[130px] pt-[51px] pl-[80px]">
                 <ul class="">
                     <li class="text-[#fff] mb-[20px]">Product type</li>
 
@@ -98,7 +98,7 @@ export default {
 
             <div class="flex-1 pb-[120px] bg-[#fff]  pl-[45px] flex flex-wrap">
 
-                <div v-for="i of this.panels" :key="i.id" class="h-[462px] w-[305px] text-[#2A254B] mr-[20px] mt-[37px]">
+                <div v-for="i of this.panels" :key="i.id" class="productAll h-[462px] w-[305px] text-[#2A254B] mr-[20px] mt-[37px]">
                     <img class="h-[376px] w-[305px]" :src="i.img" alt="">
                     <div class="flex justify-between mt-[24px] text-center h-[30px] items-center">
                         <h2 class="text-[20px] text-[#2A254B]">{{ i.title }}</h2>
@@ -118,7 +118,7 @@ export default {
 <style>
 .checkActive {
     background: #4269E2;
-    background-image: url('../assets/icons/checkbox.png');
+    background-image: url('@/assets/icons/checkbox.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;

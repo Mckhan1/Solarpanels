@@ -15,7 +15,7 @@ export default {
 
 <style>
 .product{
-    background-image: url('../assets/image/Rectangle 45.png');
+    background-image: url('@/assets/image/Rectangle45.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -37,7 +37,7 @@ export default {
                 </div>
 
                 <p class="mt-[25px] ">Description</p>
-                <span class="mt-[16px] text-[#505977] w-[75%]">{{this.eventpanels.desc}}</span>
+                <span class="descPayment mt-[16px] text-[#505977] w-[75%]">{{this.eventpanels.desc}}</span>
                 <ul class="w-[150px] mt-[17px] text-[#505977]">
                     <li>{{ this.eventpanels.material }} </li>
                     
